@@ -2,5 +2,6 @@
 
 import re
 
+pattern = re.compile(r"\d+")
 for T in range(int(input())):
-	print(len(re.findall(r"\d+", input())))
+	print(len(pattern.findall(input())))

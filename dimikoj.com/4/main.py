@@ -1,6 +1,7 @@
 # https://dimikoj.com/problems/4/divisor
 
 def divisors(num):
+    num = int(num)
     divs = []
 
     if num == 0:
@@ -20,6 +21,6 @@ def divisors(num):
 
 
 for T in range(int(input())):
-    s = " ".join(map(str, divisors(int(input()))))
+    s = " ".join(map(str, divisors(input())))
     print(f"Case {T+1}: {s}")
     
