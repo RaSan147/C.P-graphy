@@ -1,0 +1,7 @@
+{
+	"files.associations": {
+		"*.dpy": "python",
+		"*.css": "css",
+		"ostream": "cpp"
+	}
+}
